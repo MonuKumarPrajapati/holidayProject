@@ -22,7 +22,7 @@ const ProductCard = ({ products }) => {
 
               <div className=" w-full inline-flex gap-5 justify-evenly items-center">
                 <p className="text-sm font-bold text-gray-800 mb-1 text-start">
-                  $ {product.price}
+                  price $ {product.price}
                 </p>
                 <p className="text-lg font-bold text-gray-800 mb-1 text-center">
                   rating {product.rating.rate}
