@@ -30,7 +30,7 @@ import ProductPage from "./pages/ProductPage";
 // console.log(isLoggedIn);
 
 const routes = createRoutesFromElements(
-  <Route path="/" element={<Protected Component={Layout} />}>
+  <Route path="/" element={<Layout />}>
     {/* <Route index element={<Protected Component={Home} />} /> */}
     <Route index='' element={<Home/>} />
     {/* <Route index element={<Protected>
