@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Signup from "./pages/Signup";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import './App.css'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -32,7 +33,7 @@ import ProductPage from "./pages/ProductPage";
 const routes = createRoutesFromElements(
   <Route path="/" element={<Layout />}>
     {/* <Route index element={<Protected Component={Home} />} /> */}
-    <Route index='' element={<Home/>} />
+    <Route index='/' element={<Home/>} />
     {/* <Route index element={<Protected>
         <Home/>
       </Protected>} /> */}

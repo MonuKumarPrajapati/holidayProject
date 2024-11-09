@@ -1,17 +1,17 @@
 import React from "react";
 
 const ProductCard = ({ products }) => {
-  console.log(products?.title);
+  // console.log(products?.title);
 
   return (
-    <div className="container mx-auto px-4 py-16 flex flex-col items-center ">
-      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+    <div className="container mx-auto px-4 py-16 flex flex-col items-center  ">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center">
         {products?.map((product) => (
-          <div key={product.id} className=" border">
+          <div key={product.id} className="  transform hover:scale-110 hover:shadow-xl transition duration-200 mt-11 shadow-lg rounded-md">
             <img
               src={product.image}
               alt={product.title}
-              className="w-[380px] h-[200px] p-2 object-contain"
+              className="w-[300px] h-[200px] p-2 object-contain bg-transparent border-none outline-none "
             />
             <div className="p-4">
               <p className="text-xl font-semibold mb-1 text-center">

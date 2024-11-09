@@ -107,7 +107,7 @@ const Signup = () => {
 
     setFormData({
       ...formData,
-      [name]: value, // this is the way to pass key and name in destructuring
+      [name]: value, // in this way we make change on username username will change, email email will change.
     });
   };
   return (
